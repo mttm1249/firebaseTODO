@@ -115,7 +115,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTF" destination="h6X-HB-5sB" id="xlO-cz-sHq"/>
-                        <outlet property="logo" destination="Iwd-aZ-95g" id="pz0-7e-29x"/>
+                        <outlet property="logo" destination="Iwd-aZ-95g" id="bdX-Pj-f1f"/>
                         <outlet property="passwordTF" destination="3cV-1G-uYm" id="E94-Vw-F5I"/>
                         <outlet property="warnLabel" destination="mvc-kr-OEk" id="MTX-ru-Z9v"/>
                         <segue destination="VZs-Pf-LEZ" kind="show" identifier="tasksSegue" id="xza-jl-Trk"/>
