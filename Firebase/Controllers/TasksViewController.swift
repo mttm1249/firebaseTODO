@@ -110,8 +110,9 @@ class TasksViewController: UIViewController, UITableViewDataSource, UITableViewD
         }
         
         let cancel = UIAlertAction(title: "Cancel", style: .default, handler: nil)
-        alertController.addAction(save)
         alertController.addAction(cancel)
+        alertController.addAction(save)
+        
         
         present(alertController, animated: true, completion: nil)
     }
