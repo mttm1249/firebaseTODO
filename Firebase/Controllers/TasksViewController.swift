@@ -88,6 +88,12 @@ class TasksViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func toggleCompletion(_ cell: UITableViewCell, isCompleted: Bool) {
         cell.accessoryType = isCompleted ? .checkmark : .none
+        if isCompleted {
+            cell.backgroundColor = #colorLiteral(red: 0.2816424668, green: 0.2774733901, blue: 0.7142080665, alpha: 1)
+        } else {
+            cell.backgroundColor = #colorLiteral(red: 0.3380320072, green: 0.3330270946, blue: 0.8570103049, alpha: 1)
+
+        }
     }
     
     @IBAction func addTapped(_ sender: UIBarButtonItem) {
